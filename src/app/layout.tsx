@@ -27,15 +27,18 @@ export default function RootLayout({
 }>) {
 
     return (
+
         <html lang="en">
         <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased w-full `}
+            className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black bg-white`}
         >
-        <ThemeProvider attribute="class">
+        <ThemeProvider attribute="class" disableTransitionOnChange>
             <Navbar/>
             {children}
         </ThemeProvider>
         </body>
+
         </html>
+
     );
 }
