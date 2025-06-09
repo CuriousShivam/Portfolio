@@ -158,7 +158,7 @@ export default function Main() {
                     <h1 className={` font-bold text-5xl  text-black dark:text-white `}>Keep In
                         Touch.
                     </h1>
-                    <p className={'text-gray-500 mt-3'}>I'm currently specializing in <span
+                    <p className={'text-gray-500 mt-3'}>I&apos;m currently specializing in <span
                         className={` text-emerald-500`}>Front-end Development.</span></p>
                     <p className={'text-gray-500 '}> Feel free to get in touch and talk more about your projects.</p>
 
