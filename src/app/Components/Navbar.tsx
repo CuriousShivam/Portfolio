@@ -56,9 +56,9 @@ const Navbar = () => {
     return (
         <div
             className={` p-1 nav-bar flex items-center justify-between  sm:px-5 md:px-24 lg:px-42 border-b border-gray-800 sticky left-0 top-0 z-10
-             transform transition-all duration-200 ease-out 
+             transform transition-all duration-200  
              ${timer ? ' overflow-hidden ' : ' w-full '} sm:overflow-auto
-             ${loaded ? ' translate-y-0  ' : ' -translate-y-10  '}
+             ${loaded ? ' translate-y-0  ' : ' -translate-y-10/12  '}
              bg-white text-black dark:bg-black dark:text-white 
              `}>
             <div><Logo/></div>

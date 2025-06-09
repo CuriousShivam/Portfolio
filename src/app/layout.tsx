@@ -30,7 +30,7 @@ export default function RootLayout({
 
         <html lang="en">
         <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black bg-white`}
+            className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black bg-white sm:overflow-scroll`}
         >
         <ThemeProvider attribute="class" disableTransitionOnChange>
             <Navbar/>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import {useState, useEffect} from 'react';
 import {Github, Linkedin, Mail} from 'lucide-react'
 import {motion} from 'framer-motion';
+import Footer from './Components/Footer'
 
 export default function Main() {
     const {theme} = useTheme();
@@ -25,7 +26,7 @@ export default function Main() {
                 className={` sm:px-5 md:px-24 lg:px-42 relative pt-10 sm:pt-20 px-10 ${theme === 'light' ? ' bg-white text-black ' : ''}`}>
 
                 {/*Quick Intro*/}
-                <div className={`selection:bg-transparent`}>
+                <motion.div className={`selection:bg-transparent`}>
                     <div className={`relative `}>
                         <Image
                             src="/26432.svg"
@@ -151,7 +152,7 @@ export default function Main() {
                     </motion.div>
 
 
-                </div>
+                </motion.div>
 
                 <div className={'flex flex-col items-center justify-center py-30 min-h-10/12 text-center'}>
                     <h1 className={` font-bold text-5xl  text-black dark:text-white `}>Keep In
@@ -192,6 +193,7 @@ export default function Main() {
                         </a>
                     </div>
                 </div>
+                <Footer/>
 
             </div>
         </>

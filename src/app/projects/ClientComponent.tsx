@@ -23,7 +23,7 @@ const DraggableBox: React.FC = () => {
                         borderRadius: 8,
                     }}
                 >
-                    Drag Me!
+                    Comming Soon!
                 </div>
             </Draggable>
         </div>
