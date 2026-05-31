@@ -54,6 +54,37 @@ export default function Main() {
 
                     {/*Quick Tech Stack*/}
                     <div className={`flex gap-4 mt-5 my-10 justify-start`}>
+
+                        <div
+                            className={`relative flex items-center  p-1 rounded group hover:cursor-pointer  shadow-[inset_0px_0px_5px_2px_rgba(87,_150,_94,_0.89)] `}>
+                            <Image src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png' width={50}
+                                   height={50}
+                                   className={`invert-10 p-2 border drop-shadow-green-600 hover:drop-shadow-green-300 drop-shadow-xl `}
+                                   alt={'Javascript'}/>
+                            <span
+                                className={` left-1/2 -translate-x-1/2 absolute -top-[10%] invisible group-hover:visible group-hover:-top-[55%] transition-all   bg-white text-black font-bold text-nowrap px-2 py-1 border-2 border-amber-50 rounded-2xl text-sm shadow-[inset_0px_0px_5px_1px_rgba(232,221,211,1)]`}> <i>Javascript</i></span>
+                        </div>
+
+
+                        <div
+                            className={`relative flex items-center  p-1 py-2 rounded group hover:cursor-pointer  shadow-[inset_0px_0px_5px_1px_rgba(89,191,255,0.89)] `}>
+                            <span className={"w-12 "}>
+                            <svg className={"block mx-auto"} xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 32 32"><path fill="#5382A1" d="M11.622 24.74s-1.264.748.9.998c2.626.308 3.968.264 6.854-.308 0 0 .76.484 1.82.9-6.49 2.802-14.674-.16-9.574-1.59zm-.826-3.924s-1.43 1.056.748 1.278c2.782.308 4.97.33 8.76-.44 0 0 .528.54 1.353.836-7.81 2.296-16.5.176-10.86-1.672zm15.92 6.81s.924.77-.99 1.39c-3.702 1.176-15.41 1.486-18.67.044-.99-.528 1.012-.792 1.694-.88.66-.11 1.034-.11 1.034-.11-1.2-.836-7.7 1.65-3.31 2.37 11.99 1.97 21.83-.88 20.24-2.81zM12.2 17.03s-5.456 1.302-1.936 1.77c1.497.22 4.466.176 7.227-.088 2.264-.264 4.532-.814 4.532-.814s-.792.352-1.376.748c-5.566 1.464-16.32.792-13.23-.726 2.61-1.28 4.795-.88 4.795-.88zm11.22 6.292c5.63-2.93 3.034-5.74 1.232-5.366-.44.088-.638.176-.638.176s.166-.264.484-.374c3.568-1.258 6.314 3.724-1.17 5.696 0 0 .088-.088.088-.132zm-10.296 8.87c5.412.352 13.728-.198 13.904-2.788 0 0-.374.99-4.466 1.766-4.62.88-10.33.78-13.728.22 0 0 .7.572 4.29.792z"></path><path fill="#E76F00" d="M18.996 1s3.014 3.036-2.858 7.7c-4.708 3.748-1.076 5.894 0 8.338-2.744-2.478-4.774-4.664-3.414-6.692 1.996-2.97 7.53-4.422 6.272-9.346zm-1.576 14.026c1.464 1.68-.374 3.19-.374 3.19s3.702-1.92 2-4.312c-1.584-2.222-2.804-3.326 3.79-7.106 0 0-10.374 2.596-5.412 8.228z"></path></svg>
+                            </span>
+                            <span
+                                className={`left-1/2 -translate-x-1/2 absolute -top-[10%] invisible group-hover:visible group-hover:-top-[55%] transition-all   bg-white text-black font-bold text-nowrap px-2 py-1 border-2 border-amber-50 rounded-2xl text-sm shadow-[inset_0px_0px_5px_1px_rgba(232,221,211,1)]`}> <i>Java</i></span>
+                        </div>
+
+                        <div
+                            className={`relative flex items-center  p-1 rounded group hover:cursor-pointer  shadow-[inset_0px_0px_5px_2px_rgba(87,_150,_94,_0.89)] `}>
+                            <Image src='/icons8-node-js-48.png' width={50}
+                                   height={50}
+                                   className={`invert-10 p-2 border drop-shadow-green-600 hover:drop-shadow-green-300 drop-shadow-xl `}
+                                   alt={'NodeJs'}/>
+                            <span
+                                className={` left-1/2 -translate-x-1/2 absolute -top-[10%] invisible group-hover:visible group-hover:-top-[55%] transition-all   bg-white text-black font-bold text-nowrap px-2 py-1 border-2 border-amber-50 rounded-2xl text-sm shadow-[inset_0px_0px_5px_1px_rgba(232,221,211,1)]`}> <i>Node JS</i></span>
+                        </div>
+
                         <div
                             className={`relative flex items-center  p-1 rounded group hover:cursor-pointer  shadow-[inset_0px_0px_5px_1px_rgba(87,_150,_94,_0.82)] `}>
                             <Image src='/icons8-next.js.svg' width={50}
@@ -94,15 +125,7 @@ export default function Main() {
                                 className={`left-1/2 -translate-x-1/2 absolute -top-[10%] invisible group-hover:visible group-hover:-top-[55%] transition-all   bg-white text-black font-bold text-nowrap px-2 py-1 border-2 border-amber-50 rounded-2xl text-sm shadow-[inset_0px_0px_5px_1px_rgba(232,221,211,1)]`}> <i>Express Js</i></span>
                         </div>
 
-                        <div
-                            className={`relative flex items-center  p-1 rounded group hover:cursor-pointer  shadow-[inset_0px_0px_5px_2px_rgba(87,_150,_94,_0.89)] `}>
-                            <Image src='/icons8-node-js-48.png' width={50}
-                                   height={50}
-                                   className={`invert-10 p-2 border drop-shadow-green-600 hover:drop-shadow-green-300 drop-shadow-xl `}
-                                   alt={'Node Js'}/>
-                            <span
-                                className={` left-1/2 -translate-x-1/2 absolute -top-[10%] invisible group-hover:visible group-hover:-top-[55%] transition-all   bg-white text-black font-bold text-nowrap px-2 py-1 border-2 border-amber-50 rounded-2xl text-sm shadow-[inset_0px_0px_5px_1px_rgba(232,221,211,1)]`}> <i>Node JS</i></span>
-                        </div>
+
 
                     </div>
 
