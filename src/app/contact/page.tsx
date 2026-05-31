@@ -25,7 +25,7 @@ export default function ContactPage() {
                 <div className="flex flex-col justify-between space-y-8">
                     <div>
             <span className="text-xs font-bold tracking-widest uppercase bg-white text-black px-2 py-0.5">
-              // Availability: Open for Work
+              Availability: Open for Work
             </span>
                         <h1 className="text-4xl md:text-5xl font-black uppercase mt-4 tracking-tight text-white">
                             Get In Touch.
