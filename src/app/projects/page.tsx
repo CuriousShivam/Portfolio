@@ -91,10 +91,16 @@ function ProjectCard({
 
 const Project = () => {
     return (<>
+        <ProjectCard title={"Notes using Raw PHP"}
+                     iframeSrc={"https://notesapp-o5e9.onrender.com"}
+                     frontendRepo={"https://github.com/CuriousShivam/Learning-PHP/tree/main/NotesApp"}
+                     backendRepo={"https://github.com/CuriousShivam/Learning-PHP/tree/main/NotesApp"}
+                     liveUrl={"https://notesapp-o5e9.onrender.com"}
+        />
         <ProjectCard title={"Ecommerce Application"}
                      iframeSrc={"https://e-com-jet-delta.vercel.app"}
-                     frontendRepo={"https://github.com"}
-                     backendRepo={"https://github.com"}
+                     frontendRepo={"https://github.com/CuriousShivam/E-Com/tree/main/Marketplace"}
+                     backendRepo={"https://github.com/CuriousShivam/E-Com/tree/main/server"}
                      liveUrl={"https://e-com-jet-delta.vercel.app"}
         />
         <ProjectCard title={"Insurance Advisor"}
